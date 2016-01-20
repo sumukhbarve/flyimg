@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        img { max-width: 100%; }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Page - Without flyimg.js</title>
+</head>
+<body>
+    <img src="http://www.arthurweill.fr/img/unsplash/images_1280/tumblr_mopqfpSTPN1st5lhmo1_1280.jpg">
+    <img src="http://www.arthurweill.fr/img/unsplash/images_1280/tumblr_naj3a897XB1st5lhmo1_1280.jpg">
+    <img src="http://www.arthurweill.fr/img/unsplash/images_1280/photo-1415226481302-c40f24f4d45e_1280.jpg">
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="flyimg.js"></script>
+    <script>
+        window.onload = function () {
+            flyimg.alertTotalExcess();
+        }
+    </script>
+</body>
+</html>
